@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import math
 import numpy 
 import pandas
-import matplotlib.pyplot as plt
 
 def calc_attenuation(sea_level_temp, rainfall_intensity, latitude):
   
@@ -26,7 +25,7 @@ def calc_attenuation(sea_level_temp, rainfall_intensity, latitude):
   R0_01 = rainfall_intensity
 
   #step 5:
-  data = pandas.read_excel('Frequency-dependent coefficients.xlsx')
+  data = pandas.read_excel("Frequency_dependent_coefficients.xlsx")
   k = data["kH"].values
   a = data["αH"].values
   gR = k * (R0_01 ** a)
