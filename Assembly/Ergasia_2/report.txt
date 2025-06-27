@@ -1,0 +1,10 @@
+data segment = 16 bytes (4 vars * 4 bytes each)
+
+Var y:
+-Size: 4 bytes (SDWORD is 32-bits)
+-Value: y = 154d -> Hex: 0000009A
+-Little-Endian Bytes: 9A 00 00 00, because x86 uses little-Endian
+
+Var z:
+-Value: z = -17d -> Hex(32-bit two's complement): FFFFFFEFh
+-Little-Endian Bytes: EF FF FF FF
