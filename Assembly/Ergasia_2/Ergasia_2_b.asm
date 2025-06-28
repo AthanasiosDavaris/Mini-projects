@@ -5,10 +5,10 @@ INCLUDE Irvine32.inc
 p EQU 8d;
 
 .data
-x SDWORD 16d
-y SDWORD 154d
-z SDWORD -17d
-w SDWORD ?
+  x SDWORD 16d
+  y SDWORD 154d
+  z SDWORD -17d
+  w SDWORD ?
 
 main PROC
   mov eax, x
