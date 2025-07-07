@@ -1,6 +1,6 @@
 These are some mini python projects that i made for practice:
 
-#Python Projects  
+# Python Projects  
 1.**Assignment3_Excercise18**  
 _a university assignment that calculates signal attenuation due to rainfall and plots the results for different climatic zones._
 
@@ -19,7 +19,7 @@ _a password generator that generates passwords with uppercase letters, digits an
 6.**Useful_Python_Apps**  
 _Some useful apps that i found on the internet._
 
-#Assembly Projects  
+# Assembly Projects  
 1.**Ergasia_2_a.asm**  
 _Calculates the expression w = (x+y) - (50 + x + y + z - p) using register operations and displays the result._
 
